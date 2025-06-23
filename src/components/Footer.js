@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 
-// --- Styled Components --- //
-
 const FooterContainer = styled.footer`
     background-color: #021B33; /* --primary-dark */
     color: #F7F7F7; /* --light-color */
@@ -84,8 +82,6 @@ const Copyright = styled.p`
     text-align: center;
     flex-grow: 1;
 `;
-
-// --- Component --- //
 
 export default function Footer() {
     return (

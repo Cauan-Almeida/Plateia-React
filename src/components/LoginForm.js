@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import Layout from './Layout';
 
-// Styled Components
 const LoginContainer = styled.div`
     display: flex;
     justify-content: center;

@@ -2,8 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ContactPage from './pages/ContactPage';
-import TermsOfServicePage from './pages/TermsOfServicePage';
-import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import LoginForm from './components/LoginForm';
 import RegisterForm from './components/RegisterForm';
 
@@ -15,8 +13,6 @@ function App() {
         <Route path="/login" element={<LoginForm />} />
         <Route path="/register" element={<RegisterForm />} />
         <Route path="/contato" element={<ContactPage />} />
-        <Route path="/termos-de-servico" element={<TermsOfServicePage />} />
-        <Route path="/politica-de-privacidade" element={<PrivacyPolicyPage />} />
       </Routes>
     </Router>
   );

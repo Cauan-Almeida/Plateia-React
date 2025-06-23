@@ -1,4 +1,4 @@
-# Plateia React 
+# Plateia React - Documentação Completa
 
 Bem-vindo à documentação completa do projeto Plateia React. Este documento serve como um guia detalhado para entender a estrutura, o propósito e o funcionamento de cada parte do código. 
 
