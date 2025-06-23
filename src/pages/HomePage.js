@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
 import FadeIn from '../components/FadeIn';
 
-// --- Styled Components for HomePage --- //
 
-// Hero Section
 const HeroSection = styled.section`
     position: relative;
     height: 90vh;
@@ -77,7 +75,6 @@ const Btn = styled(Link)`
     }
 `;
 
-// Features Section
 const Features = styled.section`
     padding: 5rem 0;
     background-color: #F7F7F7; /* --light-color */
@@ -134,7 +131,6 @@ const FeatureImage = styled.div`
     }
 `;
 
-// Testimonials Section
 const Testimonials = styled.section`
     padding: 5rem 0;
     background-color: #A9CFE5; /* --secondary-color */
@@ -214,7 +210,6 @@ const Dot = styled.span`
     transition: background-color 0.3s ease;
 `;
 
-// CTA Section
 const CtaSection = styled.section`
     padding: 5rem 0;
     background-color: #F7F7F7; /* --light-color */
@@ -248,7 +243,6 @@ const testimonials = [
     }
 ];
 
-// --- HomePage Component --- //
 
 export default function HomePage() {
     const [currentIndex, setCurrentIndex] = useState(0);

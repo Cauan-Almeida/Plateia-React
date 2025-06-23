@@ -3,7 +3,6 @@ import { Link, NavLink } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 import styled from 'styled-components';
 
-// --- Styled Components --- //
 
 const HeaderContainer = styled.header`
     position: relative; /* Changed from fixed to relative for auth pages */
@@ -173,8 +172,6 @@ const MobileMenu = styled.div`
         gap: 1.5rem;
     }
 `;
-
-// --- Component --- //
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

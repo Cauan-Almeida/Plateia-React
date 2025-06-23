@@ -11,8 +11,8 @@ const FadeInWrapper = styled.div`
 
 const FadeIn = ({ children, delay }) => {
   const { ref, inView } = useInView({
-    triggerOnce: true, // Animação acontece apenas uma vez
-    threshold: 0.1,    // Dispara quando 10% do elemento está visível
+    triggerOnce: true, 
+    threshold: 0.1,   
   });
 
   return (

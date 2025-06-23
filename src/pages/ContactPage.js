@@ -89,7 +89,7 @@ const SubmitButton = styled.button`
 export default function ContactPage() {
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Aqui iria a lógica de envio do formulário
+
         alert('Obrigado por sua mensagem! Entraremos em contato em breve.');
     };
 

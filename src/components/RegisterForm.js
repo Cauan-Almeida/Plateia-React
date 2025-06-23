@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import Layout from './Layout';
 
-// Styled Components (copied from LoginForm for consistency)
 const RegisterContainer = styled.div`
     display: flex;
     justify-content: center;
@@ -105,7 +104,7 @@ const ErrorMessage = styled.p`
     min-height: 1.2rem;
 `;
 
-// Component
+
 export default function RegisterForm() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -124,7 +123,7 @@ export default function RegisterForm() {
             return;
         }
         setError('');
-        // Mock registration logic
+
         console.log('Registering user:', { name, email });
         alert('Registro (simulado) bem-sucedido!');
     };
